@@ -13,7 +13,6 @@ Explanation :
 
 The entire concept of decoupling components ensures that the different components of applications can be managed and maintained separately. If all components are tightly coupled, the entire application would go down when one component goes down. Hence it is always a better practice to decouple application components.
 
-For more information on a decoupled architecture, please refer to the below URL: http://whatis.techtarget.com/definition/decoupled-architecture
 
  
 
@@ -37,7 +36,7 @@ Option C is incorrect as AWS Trusted Advisor will provide notification on AWS re
 
 Option D is incorrect as Service Health Dashboard displays the general status of all AWS services & will not display scheduled maintenance activities.
 
-For more information on the AWS Organizations, please refer to the below URL: https://aws.amazon.com/premiumsupport/technology/personal-health-dashboard/
+
 
  
 
@@ -57,7 +56,7 @@ AWS Config can be used to audit, evaluate configurations of AWS resources. If th
 Option A is incorrect as Amazon Inspector can be used to analyze potential security threats for an Amazon EC2 instance against an assessment template with predefined rules. It does not provide historical data for configurational changes done to AWS resources.
 Option B is incorrect as AWS CloudFormation provided templates to provision and configure resources in AWS.
 Option C is incorrect as AWS Trusted Advisor can help optimize resources with AWS cloud with respect to cost, security, performance, fault tolerance, and service limits. It does not provide historical data for configurational changes done to AWS resources.
-For more information on AWS Config, refer to the following URL:https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html
+
 
  
 
@@ -77,7 +76,7 @@ Option A is CORRECT because the AWS documentation mentions it in the section cal
 Option B is incorrect as You can change the security groups for an instance when the instance is in the running or stopped state, not hibernate state.
 Option C is incorrect because there have to be some instances associated.
 Option D is incorrect because other security groups can also be changed.
-Reference: https://docs.aws.amazon.com/en_pv/vpc/latest/userguide/VPC_SecurityGroups.html
+
 
  
 
@@ -96,7 +95,7 @@ The AWS Documentation mentions the following.
 
 If you are looking to use replication to increase database availability while protecting your latest database updates against unplanned outages, consider running your DB instance as a Multi-AZ deployment.
 
-For more information on AWS RDS, please visit the FAQ Link:https://aws.amazon.com/rds/faqs/
+
 
  
 
@@ -115,7 +114,7 @@ The AWS Documentation mentions the following.
 
 AWS Database Migration Service helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. The AWS Database Migration Service can migrate your data to and from the most widely used commercial and open-source databases.
 
-For more information on AWS Database migration, please refer to the below URL:https://aws.amazon.com/dms/
+
 
  
 
@@ -134,7 +133,7 @@ The AWS Documentation mentions the following.
 
 Amazon Inspector enables you to analyze the behavior of your AWS resources and helps you to identify potential security issues. Using Amazon Inspector, you can define a collection of AWS resources that you want to include in an assessment target. You can then create an assessment template and launch a security assessment run of this target.
 
-For more information on AWS Inspector, please refer to the below URL:https://docs.aws.amazon.com/inspector/latest/userguide/inspector_introduction.html
+
 
  
 
@@ -157,10 +156,7 @@ You can configure CloudFront to add additional geolocation headers that provide 
 Option B is INCORRECT because EC2 is just a distractor, not suitable for routing and delivery.
 Option C is INCORRECT because Amazon Lightsail will primarily allow for developing, deploying, and hosting websites and web applications. The service will not meet the requirements of the scenario.
 Option D is INCORRECT because the geolocation routing policy of Route53 allows different resources to serve content based on the origin of the request. Route 53 does not use geolocation headers.
-References:
 
-https://aws.amazon.com/about-aws/whats-new/2020/07/cloudfront-geolocation-headers/
-https://aws.amazon.com/blogs/networking-and-content-delivery/leverage-amazon-cloudfront-geolocation-headers-for-state-level-geo-targeting/
 
  
 
@@ -181,7 +177,7 @@ AWS Shield – All AWS customers benefit from the automatic protections of AWS S
 
 AWS Shield Advanced – For higher levels of protection against attacks targeting your web applications running on Amazon EC2, Elastic Load Balancing (ELB), CloudFront, and Route 53 resources, you can subscribe to AWS Shield Advanced. AWS Shield Advanced provides expanded DDoS attack protection for these resources.
 
-For more information on AWS Shield, please refer to the below URL:https://docs.aws.amazon.com/waf/latest/developerguide/ddos-overview.html
+
 
  
 
@@ -206,10 +202,8 @@ Option B is incorrect because bastion host is a server whose purpose is to provi
 
 Option D is incorrect because an Internet Gateway is a horizontally scaled, redundant, and highly available VPC component that allows communication between your VPC and the internet.
 
-For more information on AWS VPC, please refer to the below URL:https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Networking.html
-https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html
-https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat.html
-https://aws.amazon.com/blogs/security/how-to-record-ssh-sessions-established-through-a-bastion-host/
+
+
 
  
 
@@ -241,11 +235,7 @@ S3 Glacier Deep Archive for archiving long-term backup cycle data that might inf
 Storage class	Expedited	Standard	Bulk
 Amazon S3 Glacier	1–5 minutes	3–5 hours	5–12 hours
 S3 Glacier Deep Archive	Not available	Within 12 hours	Within 48 hours
-Reference:
 
-https://docs.aws.amazon.com/amazonglacier/latest/dev/introduction.html
-https://docs.aws.amazon.com/prescriptive-guidance/latest/backup-recovery/amazon-s3-glacier.html
-https://aws.amazon.com/s3/storage-classes/
 
  
 
@@ -262,7 +252,7 @@ Explanation :
 
 DynamoDB is a fully managed NoSQL offering provided by AWS. It is now available in most regions for users to consume.
 
-For more information on AWS DynamoDB, please refer to the below URL:http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html
+
 
  
 
@@ -280,7 +270,7 @@ Explanation :
 Amazon EC2 is an Infrastructure as a Service (IaaS) for which customers are responsible for the security and the management of guest operating systems.
 
 Options A, B, and D are incorrect as all these resources are part of abstracted services for which AWS is responsible for the security, & infrastructure layer. Customers are responsible for data that is saved on these resources.
-For more information on the Shared responsibility model, refer to the following URL:https://aws.amazon.com/compliance/shared-responsibility-model/
+
 
  
 
@@ -324,15 +314,14 @@ Customers are responsible for the security of the following assets:
 
 – Policies and configuration
 
-Option A is incorrect. Refer to the explanation above and link in the references for more details.
-Option B is Correct. Refer to the explanation above and link in the references for more details.
-Option C is incorrect. Refer to the explanation above and link in the references for more details.
-Option D is incorrect. Refer to the explanation above and link in the references for more details.
-Option E is correct. Refer to the explanation above and link in the references for more details.
-References:
+answer B and E
 
-https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html
-https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc
+Option A is incorrect. 
+Option B is Correct. 
+Option C is incorrect.
+Option D is incorrect.
+Option E is correct. 
+
 
  
 
@@ -352,7 +341,7 @@ Option A is INCORRECT. The given statement is True.
 Option B is CORRECT. The given statement is False. For China Regions, savings plans are not available.
 Option C is INCORRECT. The given statement is True.
 Option D is INCORRECT. The given statement is True.
-Reference: https://docs.aws.amazon.com/savingsplans/latest/userguide/what-is-savings-plans.html#sp-ris
+
 
  
 
@@ -371,10 +360,7 @@ Option A is INCORRECT. AWS IAM is a global service.
 Option B is CORRECT. EFS is a regional service.
 Option C is INCORRECT. Route 53 is a global service.
 Option D is INCORRECT. Amazon Cloudfront is a global service.
-References:
 
-https://aws.amazon.com/efs/
-https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/
 
  
 
